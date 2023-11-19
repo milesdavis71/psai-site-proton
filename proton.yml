@@ -1,0 +1,21 @@
+defaultExt: html
+domain: 'https://www.example.com'
+autoindex: true
+debug: false
+devserver: browsersync
+minify: false
+npmBuild: yarn build
+pretty: true
+sitemap: true
+layouts:
+    default: default.html
+    rules: {  }
+paths:
+    dist: dist
+    assets: src/assets
+    data: src/data
+    layouts: src/layouts
+    macros: src/macros
+    pages: src/pages
+    partials: src/partials
+    watch: src
