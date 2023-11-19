@@ -1,6 +1,7 @@
 ---
 title: Homepage
 ---
+
 {% import "forms.html" as forms %}
 
 {{ include('nav.html') }}
@@ -11,4 +12,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <p>{{ forms.input('username') }}</p>
 <p>{{ forms.input('password', null, 'password') }}</p>
-
